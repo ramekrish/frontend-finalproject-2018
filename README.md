@@ -4,6 +4,6 @@
 This is the Final project webpage for the Frontend Study Block
 
 Team Members:<br>
-    Ramesh Krishnan Gurusamy<br>
-    Tomáš Kapitán Koráb
+    1. Ramesh Krishnan Gurusamy<br>
+    2. Tomáš Kapitán Koráb
   
