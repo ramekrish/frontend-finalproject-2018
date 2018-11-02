@@ -1,0 +1,100 @@
+/* Global Styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html *{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: Impact, sans-serif, Helvetica;*/
+}
+
+
+
+/* Header and Footer
+-------------------------*/
+header {
+  position: top;
+  top: 0px;
+  background-color: gray;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 1rem 5rem;
+  width: 100%;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 0.2rem 3rem;
+  background: gray;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+/* Navigation
+-------------------------*/
+.navigation {
+    position: center;
+    overflow: hidden;
+    background-color: #333;
+    position: absolute; /* Set the navbar to fixed position */
+    top: 50; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover:not(.active) {
+    background-color: lightgray;
+}
+
+.active {
+  background-color: black;
+}
+
+.navigation a.hover {
+    color: black;
+    background-color: black;
+}
+
+
+/* Main content */
+.main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+    font-size: 20px;
+    color: black;
+}
+
+.main-about {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    font-size: 20px;
+    color: black;
+    display: flex;
+}
+
+.main-about > div {
+  flex: 1;
+}
+
+.h234 {
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px
+}
