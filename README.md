@@ -3,7 +3,7 @@
 
 This is the Final project webpage for the Frontend Study Block
 
-Team Members:
-    Ramesh Krishnan Gurusamy
+Team Members:<br>
+    Ramesh Krishnan Gurusamy<br>
     Tomáš Kapitán Koráb
   
